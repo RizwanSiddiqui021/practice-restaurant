@@ -58,3 +58,58 @@
     font-size: 20px;
     font-weight: 600;
 }
+
+/* food-menu-styles */
+.food-menu{
+    border: 2px solid red;
+    width: 1320px;
+    height: 1080px;
+    margin: 0 auto;
+}
+
+.food-menu-texts{
+    text-align: center;
+    padding: 150px;
+}
+
+.food-menu-texts>p{
+    color: rgba(16, 16, 16, 0.7);
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.food-menu-texts>h1{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.food-menu-cards{
+    display: flex;
+    text-align: center; /* Need explanation of this line!! justify-content kaj kore nai!! But text-align kaj korse... */
+}
+
+.card1>button, .card2>button, .card3>button {
+    margin: 32px auto;
+    background-color: rgba(82, 195, 3, 0.15);
+    border: none;
+    border-radius: 8px;
+    padding: 14px 32px;
+    color: rgb(16, 16, 16);
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card1>h1, .card2>h1, .card3>h1{
+    color: rgb(16, 16, 16);
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 24px;
+}
+
+.card1>p, .card2>p, .card3>p{
+    color: rgba(16, 16, 16, 0.7);
+    font-size: 18px;
+    font-weight: 500;
+}
