@@ -7,8 +7,6 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-/* shared-styles */
-
 /* banner-styles */
 
 .banner-bg{
@@ -60,8 +58,9 @@
 }
 
 /* food-menu-styles */
+
 .food-menu{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 1320px;
     height: 1080px;
     margin: 0 auto;
@@ -112,4 +111,49 @@
     color: rgba(16, 16, 16, 0.7);
     font-size: 18px;
     font-weight: 500;
+}
+
+/* footer-styles */
+
+.footer-bg{
+    width: 1366px;
+    height: 670px;
+    margin: 0 auto;
+    padding: 150px;
+    background-image: url('assets/social-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-blend-mode: overlay;
+    text-align: center;
+}
+
+.footer-bg>h1{
+    color: rgb(16, 16, 16);
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.footer-bg>p{
+    color: rgba(16, 16, 16, 0.6);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.footer-bg>hr{
+    width: 1020px;
+    margin: 28px auto;
+}
+
+.footer-bg>h3{
+    color: rgba(16, 16, 16, 0.8);
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.social-medias{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
